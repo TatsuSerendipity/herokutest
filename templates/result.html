@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>結果ページ</h1>
+    <h2>レースデータ</h2>
+    {% for i in data %}
+    <p>{{ i|e }}</p>
+    {% endfor %}
+
+    <h2>レース番号</h2>
+    <p>{{ racenum }}</p>
+
+    <h2>予想結果</h2>
+
+    <h2>信頼度</h2>
+
+    <a href="/">
+        <button type="button">戻る</button>
+    </a>
+{% endblock %}

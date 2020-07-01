@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div align="center">
+    <br>
+    <br>
+    <h1>予想ページ</h1>
+
+        <form method="post" action="/" enctype="multipart/form-data">
+            <p>
+                <input type="radio" name="kind" value="region">地方競馬
+                <input type="radio" name="kind" value="central">中央競馬
+            </p>
+            <p>
+                <input placeholder="番号(12桁)" name="number" type="text"/>
+            </p>
+            <p>
+                <input value="送信" type="submit">
+            </p>
+        </form>
+
+    </div>
+{% endblock %}
