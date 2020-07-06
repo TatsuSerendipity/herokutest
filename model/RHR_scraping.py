@@ -11,8 +11,8 @@ def scraip(num):
     # ネット競馬ログイン
     ###########################################
     # メールアドレスとパスワードの指定
-    USER = "nonakayutarou@gmail.com"
-    PASS = "yutarou6613"
+    USER = "*******"
+    PASS = "*******"
 
     login_info = {
         "login_id": USER,
